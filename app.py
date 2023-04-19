@@ -2,7 +2,7 @@ import streamlit as st
 from create import create
 #from database import create_table
 from delete import delete
-from read import read
+#from read import read
 from update import update
 from queries import query
 
@@ -14,9 +14,9 @@ def main():
     if choice == "Add":
         st.subheader("Enter Plane Details:")
         create()
-    elif choice == "View":
-        st.subheader("View Plane tasks")
-        read()
+#     elif choice == "View":
+#         st.subheader("View Plane tasks")
+#         read()
     elif choice == "Edit":
         st.subheader("Update Plane tasks")
         update()
