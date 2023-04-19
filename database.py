@@ -1,10 +1,10 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
-    host="localhost",
+    host="airport1.chf5rsalfcvg.ap-southeast-2.rds.amazonaws.com",
     user="root",
-    password="",
-    database="airline_ticket_booking_system"
+    password="Alexa&katie-220306",
+    database="airport1"
 )
 c = mydb.cursor(buffered=True)
 
