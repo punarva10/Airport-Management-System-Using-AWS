@@ -26,7 +26,7 @@ INSERT INTO airlines VALUES (5000, 001, 111, "Vistara","Delhi","Bangalore", "217
 INSERT INTO airlines VALUES (5001, 002, 115, "Singapore Airlines","Singapore", "Bangalore", "3170 KM", "4hrs 15mins", "00:00","04:15",14000);
 INSERT INTO airlines VALUES (5002, 003, 113, "GoAir", "Chennai", "Kolkata", "1662 KM", "2hrs 30mins", "14:00","16:30",5000);
 INSERT INTO airlines VALUES (5003, 001, 114, "AkasaAir", "Bangalore", "Rajkot", "1900 KM", "2hrs 00mins", "13:00","15:00",3500);
-INSERT INTO airlines VALUES (5004, 001, 114, "AkasaAir", "Bangalore", "Rajkot", "1900 KM", "2hrs 00mins", "13:00","15:00");
+INSERT INTO airlines VALUES (5004, 001, 114, "AkasaAir", "Bangalore", "Rajkot", "1900 KM", "2hrs 00mins", "13:00","15:00",4500);
 INSERT INTO airlines VALUES (5009, 001, 111, "IndiGo", "Delhi", "Bangalore", "2175 KM", "2hrs 45mins", "16:00","18:45",4500);
 INSERT INTO airlines VALUES (5008, 004, 111, "Spicejet", "Delhi", "Bangalore", "2175 KM", "2hrs 45mins", "14:00","16:45",4900);
 INSERT INTO airlines VALUES (5007, 005, 111, "Vistara", "Delhi", "Bangalore", "2175 KM", "2hrs 45mins", "13:00","15:00",4950);
@@ -61,17 +61,15 @@ INSERT INTO city VALUES (180110, "Rajkot");
 INSERT INTO city VALUES (021513, "Mumbai");
 
 -- Insert values into booking(ticket) table 
-INSERT INTO booking VALUES (9000, 5000, 2050, 040512, 021218, "17-09-2022","","18-10-2022","Window","On-Time");
-INSERT INTO booking VALUES (9001, 5001, 2051, 190716, 021218,"12-08-2022","","15-09-2022","Isle","Delayed");
-INSERT INTO booking VALUES (9002, 5002, 2052, 130101, 030321,"14-09-2022","","22-11-2022","Window","On-Time");
-INSERT INTO booking VALUES (9003, 5000, 2053, 111 , 040512, 021218,"8-09-2022","","09-11-2022","Isle","On-Time");
-INSERT INTO booking VALUES (9004, 5000, 2054, 111 , 040512, 021218,"4-09-2022","","10-11-2022","Middle","On-Time");
-INSERT INTO booking VALUES (9005, 5000, 2055, 111 , 040512, 021218,"1-09-2022","","18-10-2022","Window","On-Time");
-INSERT INTO booking VALUES (9006, 5007, 2056, 111 , 040512, 021218,"6-09-2022","","15-11-2022","Isle","Delayed");
-INSERT INTO booking VALUES (9007, 5011, 2057, 123 , 021513, 180110,"18-09-2022","","28-11-2022","Middle","On-Time");
-INSERT INTO booking VALUES (9008, 5010, 2058, 121 , 040512, 190716,"19-09-2022","","6-11-2022","Isle","On-Time");
-INSERT INTO booking VALUES (9009, 5007, 2059, 111 , 040512, 021218,"4-09-2022","","10-11-2022","Window","Delayed");
-INSERT INTO booking VALUES (9010, 5007, 2060, 111 , 040512, 021218,"7-09-2022","","12-11-2022","Window","Delayed");
-INSERT INTO booking VALUES (9011, 5012, 2061, 122 , 021513, 092405,"9-09-2022","","29-11-2022","Window","Delayed");
-
-
+INSERT INTO booking VALUES (9000, 5000, 2050, 040512, 021218, "17-09-2022",500,"18-10-2022","Window","On-Time");
+INSERT INTO booking VALUES (9001, 5001, 2051, 190716, 021218,"12-08-2022",400,"15-09-2022","Isle","Delayed");
+INSERT INTO booking VALUES (9002, 5002, 2052, 130101, 030321,"14-09-2022",300,"22-11-2022","Window","On-Time");
+INSERT INTO booking VALUES (9003, 5000, 2053, 040512, 021218,"8-09-2022",550,"09-11-2022","Isle","On-Time");
+INSERT INTO booking VALUES (9004, 5000, 2054, 040512, 021218,"4-09-2022",300,"10-11-2022","Middle","On-Time");
+INSERT INTO booking VALUES (9005, 5000, 2055, 040512, 021218,"1-09-2022",400,"18-10-2022","Window","On-Time");
+INSERT INTO booking VALUES (9006, 5007, 2056, 040512, 021218,"6-09-2022",350,"15-11-2022","Isle","Delayed");
+INSERT INTO booking VALUES (9007, 5011, 2057, 021513, 180110,"18-09-2022",500,"28-11-2022","Middle","On-Time");
+INSERT INTO booking VALUES (9008, 5010, 2058, 040512, 190716,"19-09-2022",400,"6-11-2022","Isle","On-Time");
+INSERT INTO booking VALUES (9009, 5007, 2059, 040512, 021218,"4-09-2022",350,"10-11-2022","Window","Delayed");
+INSERT INTO booking VALUES (9010, 5007, 2060, 040512, 021218,"7-09-2022",200,"12-11-2022","Window","Delayed");
+INSERT INTO booking VALUES (9011, 5012, 2061, 021513, 092405,"9-09-2022",250,"29-11-2022","Window","Delayed");
