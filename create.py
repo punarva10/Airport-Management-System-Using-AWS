@@ -11,7 +11,7 @@ def create():
 
     with col2:
         airlines_from = st.selectbox("Source", ["Bangalore", "Chennai", "Mumbai", "Mangaluru","Delhi", "Rajkot", "Kolkata","Singapore", "Dubai","Kochi","Hubli","Hyderabad","Srinagar","Jaipur","Ranchi","Bhopal","Indore","Paris","Macau","Tokyo","Seol","Lisbon","Rio de Jenario"])
-        airlines_to = st.selectbox("Destination", ["Bangalore", "Chennai", "Mumbai", "Mangaluru","Rajkot", "Kolkata","Singapore", "Dubai","Kochi","Hubli","Hyderabad","Srinagar","Jaipur","Ranchi","Bhopal","Indore","Paris","Macau","Tokyo","Seol","Lisbon","Rio de Jenario"])
+        airlines_to = st.selectbox("Dest", ["Bangalore", "Chennai", "Mumbai", "Mangaluru","Rajkot", "Kolkata","Singapore", "Dubai","Kochi","Hubli","Hyderabad","Srinagar","Jaipur","Ranchi","Bhopal","Indore","Paris","Macau","Tokyo","Seol","Lisbon","Rio de Jenario"])
         airlines_total_distance = st.text_input("Distance Covered")
         airlines_travel_time = st.text_input("Time of Flight")
         airlines_departure = st.text_input("Departure Time")
